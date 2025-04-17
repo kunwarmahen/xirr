@@ -63,7 +63,11 @@ This allows for assessment of XIRR over various investment durations.
 
 ### 4. Sample Outputs
 
+![decade_comparison](https://github.com/user-attachments/assets/c9f9ccde-9b7e-40d3-80db-f6315ab34cd5)
 
+![xirr_comparison_periods](https://github.com/user-attachments/assets/de3b2e6d-06d5-4b21-b7e8-8acc25dd4f37)
+
+![xirr_trends](https://github.com/user-attachments/assets/e5f03c21-4b9e-44e5-a8ea-70e31421b800)
 
 ## Contributing
 
