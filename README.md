@@ -33,7 +33,7 @@ Ensure you have Python installed. Required dependencies are listed in `requireme
 
 ### 1. Calculate XIRR for a Single Investment
 
-Run the core script with your cash flow data:
+Run the core script with your cash flow data:
 
 ```bash
 python xirr.py
@@ -59,7 +59,11 @@ For multi-year analysis:
 python xirr_multi_year.py
 ```
 
-This allows for assessment of XIRR over various investment durations.
+This allows for assessment of XIRR over various investment durations.
+
+### 4. Sample Outputs
+
+
 
 ## Contributing
 
@@ -71,4 +75,4 @@ This project is open-source and available under the [MIT License].
 
 ## Acknowledgments
 
-Inspired by the need for accurate financial analysis tools to assess investment performance over irregular intervals.
+Inspired by the need for accurate financial analysis tools to assess investment performance over irregular intervals.
