@@ -194,7 +194,7 @@ def main():
         assets_list = list(results.keys())
         xirr_values = [results[asset]['XIRR'] for asset in assets_list]
         
-        plt.bar(assets_list, xirr_values, color=['goldenrod', 'darkblue', 'orange'])
+        plt.bar(assets_list, xirr_values, color=['goldenrod', 'darkblue', 'green'])
         plt.title(str(years) + '-Year XIRR Comparison (annualized return)')
         plt.ylabel('XIRR (%)')
         plt.grid(axis='y', linestyle='--', alpha=0.7)
@@ -207,7 +207,7 @@ def main():
         plt.subplot(1, 2, 2)
         total_returns = [results[asset]['Total Return'] for asset in assets_list]
         
-        plt.bar(assets_list, total_returns, color=['goldenrod', 'darkblue', 'orange'])
+        plt.bar(assets_list, total_returns, color=['goldenrod', 'darkblue', 'green'])
         plt.title(str(years) + '-Year Total Return Comparison')
         plt.ylabel('Total Return (%)')
         plt.grid(axis='y', linestyle='--', alpha=0.7)
@@ -217,7 +217,7 @@ def main():
             plt.text(i, value + 0.5, f'{value:.2f}%', ha='center')
         
         plt.tight_layout()
-        plt.savefig('investment_comparison.png')
+        plt.savefig('xirr_investment_comparison.png')
         plt.show()
         
         print("\nSummary of Results:")

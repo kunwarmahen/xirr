@@ -277,7 +277,7 @@ def main():
         plt.grid(axis='y', linestyle='--', alpha=0.7)
         
         plt.tight_layout()
-        plt.savefig('xirr_comparison_periods.png')
+        plt.savefig('xirrm_comparison_periods.png')
         
         # Create heatmap for XIRR across all assets and periods
         plt.figure(figsize=(12, 8))
@@ -315,7 +315,7 @@ def main():
                              color='black' if 0 <= value < 20 else 'white')
         
         plt.tight_layout()
-        plt.savefig('xirr_heatmap.png')
+        plt.savefig('xirrm_heatmap.png')
         
         # Line chart for XIRR trends over time
         plt.figure(figsize=(12, 6))
@@ -338,7 +338,7 @@ def main():
         plt.xticks(sorted(list(set().union(*[all_results[asset].keys() for asset in all_results]))))
         
         plt.tight_layout()
-        plt.savefig('xirr_trends.png')
+        plt.savefig('xirrm_trends.png')
         
         # Final value comparison (bar chart)
         plt.figure(figsize=(12, 6))
@@ -374,7 +374,7 @@ def main():
         plt.grid(axis='y', linestyle='--', alpha=0.7)
         
         plt.tight_layout()
-        plt.savefig('final_value_comparison.png')
+        plt.savefig('xirrm_final_value_comparison.png')
         
         # Print detailed results table
         print("\n" + "="*80)

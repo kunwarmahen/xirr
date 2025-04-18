@@ -385,7 +385,7 @@ def create_decade_comparison_chart(decade_results):
     axs[3].set_title('XIRR Heatmap by Asset and Decade')
     
     plt.tight_layout()
-    plt.savefig('decade_comparison.png')
+    plt.savefig('xirrd_comparison.png')
     plt.show()
 
 def main():
@@ -582,7 +582,7 @@ def main():
         plt.grid(axis='y', linestyle='--', alpha=0.7)
         
         plt.tight_layout()
-        plt.savefig('xirr_comparison_periods.png')
+        plt.savefig('xirrd_comparison_periods.png')
         
         # Line chart for XIRR trends over time
         plt.figure(figsize=(12, 6))
@@ -609,7 +609,7 @@ def main():
         plt.xticks(sorted(list(set().union(*[year_results[asset].keys() for asset in year_results if year_results[asset]]))))
         
         plt.tight_layout()
-        plt.savefig('xirr_trends.png')
+        plt.savefig('xirrd_trends.png')
         
         # Print detailed results table
         print("\n" + "="*80)
